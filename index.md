@@ -397,13 +397,12 @@ please preview your site before committing, and make sure to run
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
-  Data Carpentry
+  this
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  you will need to install or update R, RStudio, and the tidyverse package. Follow the instructions for your operating system at <a href="https://datacarpentry.org/ecology-workshop/setup-r-workshop.html#r-and-rstudio" target="_blank">this setup page</a>. You will also need to <a href="https://datacarpentry.org/ecology-workshop/setup-r-workshop.html#data" target="_blank">download the data</a> and confirm that your preferred browser is up to date. Note that the setup page includes instructions for installing other software such as OpenRefine and SQLite Browser; we will not be using these in this R workshop.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
